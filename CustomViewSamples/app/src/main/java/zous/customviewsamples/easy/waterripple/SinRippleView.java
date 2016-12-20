@@ -1,4 +1,4 @@
-package zous.customviewsamples.waterripple;
+package zous.customviewsamples.easy.waterripple;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -17,7 +17,6 @@ public class SinRippleView extends View {
   private int mTotalHeight;
   //原始波纹的y值
   private float[] mYPositions;
-
   private double mCycleFactorW;
   private Paint mWavePaint;
   private DrawFilter mDrawFilter;
