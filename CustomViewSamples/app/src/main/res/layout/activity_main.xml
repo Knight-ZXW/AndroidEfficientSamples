@@ -6,6 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="zous.customviewsamples.MainActivity">
-  <zous.customviewsamples.easy.shaderpratice.ShaderView
+  <zous.customviewsamples.easy.imagemartix.MatrixImageView
       android:layout_width="match_parent" android:layout_height="match_parent"/>
 </RelativeLayout>

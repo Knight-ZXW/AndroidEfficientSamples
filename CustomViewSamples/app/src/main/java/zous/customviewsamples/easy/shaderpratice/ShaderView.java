@@ -67,9 +67,6 @@ public class ShaderView extends View {
   protected void onDraw(Canvas canvas) {
     // 绘制矩形
     canvas.drawRect(left, top, right, bottom, mPaint);
-    Paint paint = new Paint();
-    paint.setColor(0xffff0000);
-    canvas.drawCircle(left,top,10,paint);
     // canvas.drawRect(0, 0, screenX * 2, screenY * 2, mPaint);
   }
 }
